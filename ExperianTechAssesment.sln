@@ -5,7 +5,13 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExperianTechAssesment", "ExperianTechAssesment\ExperianTechAssesment.csproj", "{F0CAEDB9-7785-4C20-AE81-DF85BCFCD0DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExperianTechAssesmentTests", "ExperianTechAssesmentTests\ExperianTechAssesmentTests.csproj", "{03A0EB9D-0746-4A24-9D92-D35C1CE88A57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExperianTechAssesmentTests", "ExperianTechAssesmentTests\ExperianTechAssesmentTests.csproj", "{03A0EB9D-0746-4A24-9D92-D35C1CE88A57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BCCA8F6F-B5DD-408E-A12A-D806E1535C2A}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\ExampleRequest.PNG = ..\..\..\Desktop\ExampleRequest.PNG
+		README.txt = README.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
