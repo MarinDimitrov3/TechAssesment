@@ -34,6 +34,7 @@ connection problems to the database.
 
 Testing:
 May include integration tests by using UseTestServer to test the Middleware and how it responds to different requests.
+Further testing could be done with tools such as JMeter (load testing for instance).
 
 Post vs Get
 I am aware that getting values using some inputs usually could be done with a Get request and that post is usually for creating new instances within a database
