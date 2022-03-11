@@ -1,3 +1,5 @@
+Created an azure function which does the calculations and returns a response. The function can be triggered on https://functionapp120220311110057.azurewebsites.net/api/CreditCardDecision and the same Post request as for the API is required. There is some simple validation added as well.
+
 How to connect to Mongo cluster:
 Email to use : HavingFunWithMongo@gmail.com
 password to use : mongodbiscool
