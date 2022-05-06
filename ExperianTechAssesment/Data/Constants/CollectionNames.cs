@@ -2,6 +2,6 @@
 {
     public static class CollectionNames
     {
-        public const string GetCreditCardOffersLogs = "GetCreditCardOffersLogs";
+        public const string GetCreditCardOffersLogs = "GetCreditCardOffersLogs" ;
     }
 }

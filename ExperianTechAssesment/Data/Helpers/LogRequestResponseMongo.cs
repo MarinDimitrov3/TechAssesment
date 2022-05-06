@@ -14,7 +14,7 @@ namespace ExperianTechAssesment.Data.Helpers
         {
             _mongoClient = mongoClient;
             IMongoDatabase db = _mongoClient.GetDatabase(DatabaseNames.ExperianTechAssesment);
-            _mongoCollection = db.GetCollection<LogModel>(CollectionNames.GetCreditCardOffersLogs);
+            _mongoCollection = db.GetCollection<LogModel>(CollectionNames.GetCreditCardOffersLogs) ;
         }
 
         public async Task<bool> LogRequestResponseInDb(ExpandoObject request, ExpandoObject response)
